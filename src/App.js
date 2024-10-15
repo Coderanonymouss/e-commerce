@@ -1,7 +1,7 @@
-import logo from './logo.svg';
 import './App.css';
 import Navigation from "./custumer/components/Navigation/Navigation";
 import HomePage from "./custumer/pages/HomePage/HomePage";
+import Footer from "./custumer/components/Footer/Footer";
 
 function App() {
     return (
@@ -9,6 +9,9 @@ function App() {
             <Navigation/>
             <div>
             <HomePage/>
+            </div>
+            <div>
+            <Footer/>
             </div>
         </div>
     );

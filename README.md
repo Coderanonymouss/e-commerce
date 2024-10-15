@@ -5,3 +5,9 @@
 ### `npx tailwindcss init`
 ### `npm install @headlessui/react`
 ### `npm install react-alice-carousel`
+
+<!-- Для запуска приложения -->
+### `npm start`
+
+<!-- Для выключения приложения -->
+### `npm stop`
