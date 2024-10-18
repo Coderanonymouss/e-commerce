@@ -7,7 +7,7 @@ import {shouldDisableButtons} from "react-alice-carousel/lib/utils";
 const MainCrosel = () =>{
 
     const items = mainCarouselData.map((item) =>
-        <img className='cursor-pointer' role="presentation" src={item.image} alt=""/>)
+        <img className='cursor-pointer -z-10' role="presentation" src={item.image} alt=""/>)
 
     return (
         <AliceCarousel
