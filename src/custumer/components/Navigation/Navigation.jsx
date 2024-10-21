@@ -20,30 +20,30 @@ const navigation = {
     categories: [
         {
             id: 'women',
-            name: 'Women',
+            name: 'ӘЙЕЛ',
             featured: [
                 {
-                    name: 'New Arrivals',
+                    name: 'Жаңадан келгендер',
                     href: '#',
                     imageSrc: 'https://tailwindui.com/plus/img/ecommerce-images/mega-menu-category-01.jpg',
-                    imageAlt: 'Models sitting back to back, wearing Basic Tee in black and bone.',
+                    imageAlt: 'Модели сидят спиной к спине, в футболках Basic черного цвета и цвета кости.',
                 },
                 {
-                    name: 'Basic Tees',
+                        name: 'Қарапайым футболкалар',
                     href: '#',
                     imageSrc: 'https://tailwindui.com/plus/img/ecommerce-images/mega-menu-category-02.jpg',
-                    imageAlt: 'Close up of Basic Tee fall bundle with off-white, ochre, olive, and black tees.',
+                    imageAlt: 'Ақ, охра, зәйтүн және қара түсті футболкалары бар Basic Tee күзгі топтамасының жақын көрінісі.',
                 },
             ],
             sections: [
                 {
                     id: 'clothing',
-                    name: 'Clothing',
+                    name: 'Киім',
                     items: [
-                        { name: 'Tops', href: '#' },
-                        { name: 'Dresses', href: '#' },
-                        { name: 'Pants', href: '#' },
-                        { name: 'Denim', href: '#' },
+                        { name: 'Үстіңгі киім', href: '#' },
+                        { name: 'Көйлектер', href: '#' },
+                        { name: 'Шалбар', href: '#' },
+                        { name: 'Деним', href: '#' },
                         { name: 'Sweaters', href: '#' },
                         { name: 'T-Shirts', href: '#' },
                         { name: 'Jackets', href: '#' },
@@ -53,89 +53,89 @@ const navigation = {
                 },
                 {
                     id: 'accessories',
-                    name: 'Accessories',
+                    name: 'Аксессуары',
                     items: [
-                        { name: 'Watches', href: '#' },
-                        { name: 'Wallets', href: '#' },
-                        { name: 'Bags', href: '#' },
-                        { name: 'Sunglasses', href: '#' },
-                        { name: 'Hats', href: '#' },
-                        { name: 'Belts', href: '#' },
+                        { name: 'Сағаттар', href: '#' },
+                        { name: 'Әмияндар', href: '#' },
+                        { name: 'Сөмкелер', href: '#' },
+                        { name: 'Күннен қорғайтын көзілдірік', href: '#' },
+                        { name: 'Шляпалар', href: '#' },
+                        { name: 'Белдіктер', href: '#' },
                     ],
                 },
                 {
                     id: 'brands',
-                    name: 'Brands',
+                    name: 'Брэндтер',
                     items: [
-                        { name: 'Full Nelson', href: '#' },
-                        { name: 'My Way', href: '#' },
-                        { name: 'Re-Arranged', href: '#' },
-                        { name: 'Counterfeit', href: '#' },
-                        { name: 'Significant Other', href: '#' },
+                        { name: 'Толық Нельсон', href: '#' },
+                        { name: 'Менің жолым', href: '#' },
+                        { name: 'Қайтадан реттелген', href: '#' },
+                        { name: 'Көшірше', href: '#' },
+                        { name: 'Екінші жартысы', href: '#' },
                     ],
                 },
             ],
         },
         {
             id: 'men',
-            name: 'Men',
+            name: 'ЕР',
             featured: [
                 {
-                    name: 'New Arrivals',
+                    name: 'Жаңадан келгендер',
                     href: '#',
                     imageSrc: 'https://tailwindui.com/plus/img/ecommerce-images/product-page-04-detail-product-shot-01.jpg',
-                    imageAlt: 'Drawstring top with elastic loop closure and textured interior padding.',
+                    imageAlt: 'Серпімді ілмекпен жабылатын және текстуралы ішкі төсемі бар иірілген жіп.',
                 },
                 {
-                    name: 'Artwork Tees',
+                    name: 'Өнер туындылары',
                     href: '#',
                     imageSrc: 'https://tailwindui.com/plus/img/ecommerce-images/category-page-02-image-card-06.jpg',
                     imageAlt:
-                        'Three shirts in gray, white, and blue arranged on table with same line drawing of hands and shapes overlapping on front of shirt.',
+                        'Үстел үстінде сұр, ақ және көк түсті үш көйлек, көйлектің алдыңғы жағында бір-біріне сәйкес келетін қолдар мен пішіндердің бірдей сызбасы бар.',
                 },
             ],
             sections: [
                 {
                     id: 'clothing',
-                    name: 'Clothing',
+                    name: 'Киім',
                     items: [
-                        { name: 'Tops', href: '#' },
-                        { name: 'Pants', href: '#' },
-                        { name: 'Sweaters', href: '#' },
-                        { name: 'T-Shirts', href: '#' },
-                        { name: 'Jackets', href: '#' },
-                        { name: 'Activewear', href: '#' },
-                        { name: 'Browse All', href: '#' },
+                        { name: 'Үстіңгі киім', href: '#' },
+                        { name: 'Шалбар', href: '#' },
+                        { name: 'Свитерлер', href: '#' },
+                        { name: 'Футболкалар', href: '#' },
+                        { name: 'Курткалар', href: '#' },
+                        { name: 'Спорттық киімдер', href: '#' },
+                        { name: 'Барлығын шолу', href: '#' },
                     ],
                 },
                 {
                     id: 'accessories',
-                    name: 'Accessories',
+                    name: 'Аксессуарлар',
                     items: [
-                        { name: 'Watches', href: '#' },
-                        { name: 'Wallets', href: '#' },
-                        { name: 'Bags', href: '#' },
-                        { name: 'Sunglasses', href: '#' },
-                        { name: 'Hats', href: '#' },
-                        { name: 'Belts', href: '#' },
+                        { name: 'Сағаттар', href: '#' },
+                        { name: 'Әмиан', href: '#' },
+                        { name: 'Сөмкелер', href: '#' },
+                        { name: 'көзілдірік', href: '#' },
+                        { name: 'Шляпалар', href: '#' },
+                        { name: 'Белдіктер', href: '#' },
                     ],
                 },
                 {
                     id: 'brands',
-                    name: 'Brands',
+                    name: 'Брэнд',
                     items: [
-                        { name: 'Re-Arranged', href: '#' },
-                        { name: 'Counterfeit', href: '#' },
-                        { name: 'Full Nelson', href: '#' },
-                        { name: 'My Way', href: '#' },
+                        { name: 'Қайтадан реттелген', href: '#' },
+                        { name: 'Көшірше', href: '#' },
+                        { name: 'Толық Нельсон', href: '#' },
+                        { name: 'Менің жолым', href: '#' },
                     ],
                 },
             ],
         },
     ],
     pages: [
-        { name: 'Company', href: '#' },
-        { name: 'Stores', href: '#' },
+        { name: 'Компания', href: '#' },
+        { name: 'Дүкендер', href: '#' },
     ],
 }
 
@@ -196,7 +196,7 @@ export default function Example() {
                                                         {item.name}
                                                     </a>
                                                     <p aria-hidden="true" className="mt-1">
-                                                        Shop now
+                                                        САТЫП АЛУ
                                                     </p>
                                                 </div>
                                             ))}
@@ -239,12 +239,12 @@ export default function Example() {
                         <div className="space-y-6 border-t border-gray-200 px-4 py-6">
                             <div className="flow-root">
                                 <a href="#" className="-m-2 block p-2 font-medium text-gray-900">
-                                    Sign in
+                                    КІРУ
                                 </a>
                             </div>
                             <div className="flow-root">
                                 <a href="#" className="-m-2 block p-2 font-medium text-gray-900">
-                                    Create account
+                                    ТІРКЕЛУ
                                 </a>
                             </div>
                         </div>
@@ -257,7 +257,7 @@ export default function Example() {
                                     className="block h-auto w-5 flex-shrink-0"
                                 />
                                 <span className="ml-3 block text-base font-medium text-gray-900">CAD</span>
-                                <span className="sr-only">, change currency</span>
+                                <span className="sr-only">, валютаны өзгерту</span>
                             </a>
                         </div>
                     </DialogPanel>
@@ -266,7 +266,7 @@ export default function Example() {
 
             <header className="relative bg-white">
                 <p className="flex h-10 items-center justify-center bg-indigo-600 px-4 text-sm font-medium text-white sm:px-6 lg:px-8">
-                    Get free delivery on orders over $100
+                    100 доллардан асатын тапсырыстарда тегін жеткізу мүмкіндігін алыңыз
                 </p>
 
                 <nav aria-label="Top" className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -285,7 +285,7 @@ export default function Example() {
                             {/* Logo */}
                             <div className="ml-4 flex lg:ml-0">
                                 <a href="#">
-                                    <span className="sr-only">Your Company</span>
+                                    <span className="sr-only">Сіздің Компанияңыз</span>
                                     <img
                                         alt=""
                                         src="https://tailwindui.com/plus/img/logos/mark.svg?color=indigo&shade=600"
@@ -330,7 +330,7 @@ export default function Example() {
                                                                             {item.name}
                                                                         </a>
                                                                         <p aria-hidden="true" className="mt-1">
-                                                                            Shop now
+                                                                            САТЫП АЛУ
                                                                         </p>
                                                                     </div>
                                                                 ))}
@@ -379,11 +379,11 @@ export default function Example() {
                             <div className="ml-auto flex items-center">
                                 <div className="hidden lg:flex lg:flex-1 lg:items-center lg:justify-end lg:space-x-6">
                                     <a href="#" className="text-sm font-medium text-gray-700 hover:text-gray-800">
-                                        Sign in
+                                        КІРУ
                                     </a>
                                     <span aria-hidden="true" className="h-6 w-px bg-gray-200" />
                                     <a href="#" className="text-sm font-medium text-gray-700 hover:text-gray-800">
-                                        Create account
+                                        Тіркелу
                                     </a>
                                 </div>
 
@@ -395,14 +395,14 @@ export default function Example() {
                                             className="block h-auto w-5 flex-shrink-0"
                                         />
                                         <span className="ml-3 block text-sm font-medium">CAD</span>
-                                        <span className="sr-only">, change currency</span>
+                                        <span className="sr-only">, валютаны өзгерту</span>
                                     </a>
                                 </div>
 
                                 {/* Search */}
                                 <div className="flex lg:ml-6">
                                     <a href="#" className="p-2 text-gray-400 hover:text-gray-500">
-                                        <span className="sr-only">Search</span>
+                                        <span className="sr-only">ІЗДЕУ</span>
                                         <MagnifyingGlassIcon aria-hidden="true" className="h-6 w-6" />
                                     </a>
                                 </div>
@@ -415,7 +415,7 @@ export default function Example() {
                                             className="h-6 w-6 flex-shrink-0 text-gray-400 group-hover:text-gray-500"
                                         />
                                         <span className="ml-2 text-sm font-medium text-gray-700 group-hover:text-gray-800">0</span>
-                                        <span className="sr-only">items in cart, view bag</span>
+                                        <span className="sr-only">ТАУАРЛАР СӨМКЕДЕ, СӨМКЕНІ ҚАРАУ</span>
                                     </a>
                                 </div>
                             </div>
