@@ -16,73 +16,73 @@ const Footer = () => {
                   container
                   sx={{bgcolor: "black", color: "white", py: 3}}>
                 <Grid item xs={12} sm={6} md={3}>
-                    <Typography className='pb-5' variant='h6'> Company </Typography>
+                    <Typography className='pb-5' variant='h6'> Компания </Typography>
                     <div>
-                        <Button className='pb-5' variant='h6' gutterBottom> About </Button>
+                        <Button className='pb-5' variant='h6' gutterBottom>Біз туралы</Button>
                     </div>
                     <div>
-                        <Button className='pb-5' variant='h6' gutterBottom> Blog </Button>
+                        <Button className='pb-5' variant='h6' gutterBottom> Блог </Button>
                     </div>
                     <div>
-                        <Button className='pb-5' variant='h6' gutterBottom> press </Button>
+                        <Button className='pb-5' variant='h6' gutterBottom> Басымдылық </Button>
                     </div>
                     <div>
-                        <Button className='pb-5' variant='h6' gutterBottom> Jobs </Button>
+                        <Button className='pb-5' variant='h6' gutterBottom> Жұмыс орындары </Button>
                     </div>
                     <div>
-                        <Button className='pb-5' variant='h6' gutterBottom> Partners </Button>
-                    </div>
-                </Grid>
-                <Grid item xs={12} sm={6} md={3}>
-                    <Typography className='pb-5' variant='h6'> Solutions </Typography>
-                    <div>
-                        <Button className='pb-5' variant='h6' gutterBottom> Marketing </Button>
-                    </div>
-                    <div>
-                        <Button className='pb-5' variant='h6' gutterBottom> Analytics </Button>
-                    </div>
-                    <div>
-                        <Button className='pb-5' variant='h6' gutterBottom> Commerce </Button>
-                    </div>
-                    <div>
-                        <Button className='pb-5' variant='h6' gutterBottom> Insights </Button>
-                    </div>
-                    <div>
-                        <Button className='pb-5' variant='h6' gutterBottom> Cupport </Button>
+                        <Button className='pb-5' variant='h6' gutterBottom> Серіктестер </Button>
                     </div>
                 </Grid>
                 <Grid item xs={12} sm={6} md={3}>
-                    <Typography className='pb-5' variant='h6'> Documentation </Typography>
+                    <Typography className='pb-5' variant='h6'> Шешімдер </Typography>
+                    <div>
+                        <Button className='pb-5' variant='h6' gutterBottom>Маркетинг</Button>
+                    </div>
+                    <div>
+                        <Button className='pb-5' variant='h6' gutterBottom> Аналитика </Button>
+                    </div>
+                    <div>
+                        <Button className='pb-5' variant='h6' gutterBottom> Сауда </Button>
+                    </div>
+                    <div>
+                        <Button className='pb-5' variant='h6' gutterBottom> Түсініктер </Button>
+                    </div>
+                    <div>
+                        <Button className='pb-5' variant='h6' gutterBottom> қолдау көрсету </Button>
+                    </div>
+                </Grid>
+                <Grid item xs={12} sm={6} md={3}>
+                    <Typography className='pb-5' variant='h6'> Құжаттама </Typography>
                     <div>
                         <Button className='pb-5' variant='h6' gutterBottom> Guldes </Button>
                     </div>
                     <div>
-                        <Button className='pb-5' variant='h6' gutterBottom> API Status </Button>
+                        <Button className='pb-5' variant='h6' gutterBottom> API күйі </Button>
                     </div>
                 </Grid>
                 <Grid item xs={12} sm={6} md={3}>
-                    <Typography className='pb-5' variant='h6'> Legal </Typography>
+                    <Typography className='pb-5' variant='h6'> Заңды </Typography>
                     <div>
-                        <Button className='pb-5' variant='h6' gutterBottom> Claim </Button>
+                        <Button className='pb-5' variant='h6' gutterBottom> Талап </Button>
                     </div>
                     <div>
-                        <Button className='pb-5' variant='h6' gutterBottom> Privacy </Button>
+                        <Button className='pb-5' variant='h6' gutterBottom> Құпиялық </Button>
                     </div>
                     <div>
-                        <Button className='pb-5' variant='h6' gutterBottom> Terms </Button>
+                        <Button className='pb-5' variant='h6' gutterBottom> Шарттар </Button>
                     </div>
 
 
                 </Grid>
                 <Grid className='pt-20' item xs={12}>
                     <Typography variant="body2" component="p" align="center">
-                        &copy; 2023 My Company.All rights reserved.
+                        &copy; 2023 Менің компаниям Барлық құқықтар қорғалған.
                     </Typography>
                     <Typography variant="body2" component="p" aligh="center">
-                        Made with love by Me
+                        Мен сүйіспеншілікпен жасаған
                     </Typography>
-                    <Typography variant="body2" components="p" align ="center">
-                        Icons made by{' '}
+                    <Typography variant="body2" components="p" align="center">
+                        Белгішелер жасаған{' '}
                     </Typography>
 
                 </Grid>

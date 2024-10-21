@@ -11,7 +11,7 @@ export const color = [
  export const filters = [
      {
          id: "color",
-         name: "Color",
+         name: "Түсі",
          options:[
              { value: "white",label: "White" },
              { value: "beige",label: "Beige" },
@@ -24,7 +24,7 @@ export const color = [
      },
      {
          id:"size",
-         name:"Size",
+         name:"Өлшемі",
          options:[
              { value: "S",label: "S" },
              { value: "M",label: "M" },
@@ -36,7 +36,7 @@ export const color = [
  export const singleFilter=[
      {
          id: "price",
-         name: "Price",
+         name: "Бағасы",
          options: [
              { value: "159-399", label: "159$ To 399$" },
              { value: "399-999", label: "399$ To 999$" },
@@ -47,7 +47,7 @@ export const color = [
      },
      {
          id: "disccout",
-         name: "Disccount Range",
+         name: "Жеңілдік ауқымы",
          options: [
              {
                  value: "10",
@@ -64,7 +64,7 @@ export const color = [
      },
      {
          id: "stock",
-         name: "Availabilty",
+         name: "Қол жетімді",
          options: [
              { value: "in_stock", label: "In Stock" },
              { value: "out_of_stock", label: "Out of Stock" },
